@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Rock+Salt&display=swap');
+
+
+.contenedor_empresa {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: url(https://images.photowall.com/products/53178/faux-brick-wall.jpg?h=699&q=85);
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.lista_empresa {
+    list-style: none;
+  }
+
+.lista_empresa li {
+    background-color: rgba(8, 8, 8, 0.623);
+    border-radius: 30px;
+    width: 80%;
+    transform: translateX(10%);
+}
+
+.secciones_empresa {
+    color: whitesmoke;
+    margin-top: 40px;
+    margin-bottom: 30px
+  }
+
+.texto_empresa {
+      color: gray;
+  }
