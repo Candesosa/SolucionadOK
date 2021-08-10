@@ -7,9 +7,10 @@
     justify-content: space-around;
     text-align: center;
     background-image: url(https://images.photowall.com/products/53178/faux-brick-wall.jpg?h=699&q=85);
-    background-size: cover;
-    padding-bottom: 30px;
+    min-height: 100vh;
+    overflow: hidden;
 }
+
 
 .lista_empresa {
     list-style: none;

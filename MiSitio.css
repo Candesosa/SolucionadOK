@@ -96,6 +96,7 @@ span {
     font-size: 25px;
     color: whitesmoke;
     display: none;
+    cursor: pointer;
 }
 
 ul.show {
@@ -112,6 +113,21 @@ ul.show {
 
     .logo_name span {
         font-size: 25px;
+    }
+
+    .btn_menu {
+        display: inline-flex;
+        padding-right: 50px;
+    }
+    .menu_items {
+        position: fixed;
+        width: 100%;
+        height: calc(100% - 65px);
+        background-color: #212F3D;
+        top: -100vh;
+        text-align: center;
+        transition: all 0.4s;
+        flex-direction: column;
     }
 }
 
@@ -160,7 +176,6 @@ ul.show {
         font-size: 20px;
     }
 }
-
 
 @media screen and (max-width: 858px) and (orientation: landscape) {
     .menu_items li {
