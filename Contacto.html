@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="Nombre">Mi Sitio</title>
+    <title class="Nombre">Solucionadok</title>
     <link rel="stylesheet" href="Solucionadok.css">
     <link rel="stylesheet" href="Contacto.css">
     <script src="https://kit.fontawesome.com/0999bab85b.js" crossorigin="anonymous"></script>
@@ -36,7 +36,7 @@
                       <a href="#">Prestadores</a>
                   </li>
                   <li>
-                      <a href="#">Contacto</a>
+                      <a href="Contacto.html">Contacto</a>
                   </li>
               </ul>
               <span class="btn_menu">
@@ -44,38 +44,46 @@
               </span>
           </nav>
     </header>
+      <!-- Inicio Sesión  -->
+   <div class="cont">
+    <div class="forms-cont">
+      <div class="signin-signup">
 
-    <main>
-        <div class="welcome_text">
-            <h1 class="h1_text">¡Contactanos!</h1>
-            <h2 class="h2_text">Estamos para ayudarte</h2>
+        <Form class="sign-in-form" netlify> 
+            <h1 class="title">¡Hablá con nosotros!</h1>
+            <label class="input-field">
+                <input class="escribir" type="text" name="nombre" placeholder="Nombre Completo" required>
+            </label>
+            <label class="input-field">
+
+                <input class="escribir" type="email" name="email" placeholder="Email" required>
+            </label>
+            <label class="input-field">
+                <input class="escribir" type="telefono" name="telefono" placeholder="Teléfono" required>
+            </label>
+            <label class="input-field">
+                <input class="escribir" type="comentarios" name="comentarios" placeholder="Comentarios" id="comentarios" required>
+            </label>
+            <button type="submit" id="submit" name="submit">Enviar</button>
+        </Form>
         </div>
-            <form name="contacto" netlify>
-                <label>
-                    Nombre
-                    <input type="nombre" name="nombre" id="">
-                </label>
-                <label>
-                    Email
-                    <input type="email" name="email" id="">
-                </label>
-                <label>
-                    Teléfono 
-                    <input type="telefono" name="telefono" id="">
-                </label>
-                <label>
-                    Comentarios
-                    <input type="comentarios" name="comentarios" id="">
-                </label>
+    </div>
 
-                <input type="submit" value="Enviar" id="">
-            </form>
-        <div>
-
+   <!-- Paneles inicio sesion -->
+    <div class="panels-container">
+        <div class="panel left-panel">
+            <div class="content">
+            </div>
+            <img src="/imagenes/email.svg" class="image" alt="" />
         </div>
-    </main>
-
-
+    </div>
+      
+    <div>
+        <a class="button-Whatsapp" href="https://wa.me/111111111111/?text=Hola! Me comunico desde la pagina web%20" target="_blank"> 
+            <i class="fab fa-whatsapp"></i></a>
+    </div>
+    </div>
+    
     <!-- Footer -->
 <footer>
     <div class="contenedor_footer">
@@ -95,7 +103,7 @@
             <h2>NOSOTROS</h2>
             <a href="#">Inicio</a>
             <a href="#">Equipo</a>
-            <a href="#">Trabajá con nosotros</a>
+            <a href="Contacto.html">Trabajá con nosotros</a>
         </div>
         <div class="caja_footer">
             <h2>CONTACTO</h2>
