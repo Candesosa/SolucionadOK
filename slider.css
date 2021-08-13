@@ -146,6 +146,10 @@
     .slider img {
         width: 100%;
     }
+
+    .buscador {
+        top: 23%;
+    }
 }
 
 /* termina buscador */
