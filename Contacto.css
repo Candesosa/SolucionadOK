@@ -91,7 +91,7 @@ form {
     font-weight: 600;
     font-size: 20px;
     color: #333;
-    width: 80vw;
+    width: 50vw;
 }
 
 .input-field input::placeholder {
@@ -228,7 +228,7 @@ form {
   transform: translateX(800px);
 }
 
-/* ANIMATION */
+/* ANIMACION */
 
 .cont.sign-up-mode:before {
   transform: translate(100%, -50%);
