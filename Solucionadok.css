@@ -200,6 +200,7 @@ ul.show {
 }
 
 .contenedor_general {
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLmFobWFkemFraWFsZHk4MC53aGl0ZXdhbGxwYXBlcmhkX3NjcmVlbl8zXzE2MTc3ODg3NjJfMDA3/screen-3.jpg?fakeurl=1&type=.jpg);
     margin: 0 auto;
     padding: 0 2rem 2rem;
     display: grid;
@@ -210,7 +211,7 @@ ul.show {
 .titulo_general {
     margin-top: 70px;
     margin-bottom: 40px;
-    color: whitesmoke;
+    color: #212F3D;
     font-size: ;
 }
 
@@ -273,7 +274,9 @@ ul.show {
 footer {
     width: 100%;
     background-color: rgb(10, 11, 24);
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLmFobWFkemFraWFsZHk4MC53aGl0ZXdhbGxwYXBlcmhkX3NjcmVlbl8zXzE2MTc3ODg3NjJfMDA3/screen-3.jpg?fakeurl=1&type=.jpg);
     background-size: cover;
+    background-blend-mode:soft-light;
 }
 
 .contenedor_footer{
